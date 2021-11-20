@@ -1,14 +1,13 @@
 package templater;
 
+import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
-import org.eclipse.jetty.server.RequestLog;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
-import java.lang.module.Configuration;
 import java.util.Map;
 
 public class PageGenerator {
